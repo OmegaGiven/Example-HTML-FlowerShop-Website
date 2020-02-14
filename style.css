@@ -1,0 +1,112 @@
+input.searchbar{
+width: 90%;
+max-width: 400px;
+float: right;
+height: 30px;
+margin-top: 5px;
+}
+h1.topLogo{
+    text-align: center;
+    margin: 0px;
+    position: fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    background: #EEBECA;
+}
+/*Navigation background color and menu*/
+.nav {
+  background: linear-gradient(180deg, #792A6B 10%, #EEBECA 90%);
+  overflow: hidden;
+  margin: 36px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: fixed;
+  top:0px;
+  right:0px;
+  left:0px;
+  z-index:1;
+}
+/* boxes around the navigation links */
+.nav a {
+  font-family: Bebas Neue, Arial;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 25px;
+}
+/* mouse hovering color on links */
+.nav a:hover {
+  background-color: #792A6B;
+  color: white;
+}
+/* current link slected difference in color. */
+.nav a.active {
+  background-color: #792A6B;
+  color: white;
+}
+body {
+  background-image: url("Images/japanese-cherry-trees-324175_1280.jpg");
+  background-color: #EEBECA;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+div.page{
+    margin-top: 100px;
+    align: center;
+    box-sizing: border-box;
+}
+
+p.pretty{
+    font-family: Yellowtail, Arvo, Bebas Neue, Arial;
+    float: center;
+}
+
+div.window{
+    background: #BC7EA1;
+    float: center;
+    font-size: 40px;
+}
+
+
+
+
+div.column{
+    column-width: 350px;
+    column-height: auto;
+    column-count: 2;
+    column-fill: auto;
+    column-span: all;
+}
+
+img.shop{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+img.textWrapRight{
+    float: right;
+    margin: 10px;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.bottom{
+  background: linear-gradient(180deg, #EEBECA 10%, #792A6B 90%);
+  overflow: hidden;
+  right:0px;
+  left:0px;
+  bottom: 0px;
+}
+
+}
